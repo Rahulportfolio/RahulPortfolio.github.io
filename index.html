@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal websites</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/089d8942da.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo">Portfolio</p>
+                <!-- <img src="" class="logo"> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                   
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <h3>Web Designer</h3>
+                <h1>Hii I'm <span>Rahul,</span><br></h1>
+               <h1>I am   <span id="element"> Frontend Web Developer </span></h1>
+            </div>
+
+            <!-- <div class="images">
+                 <img src="rahulimage.png" class="rahulimage">
+            </div> -->
+        </div>
+    </div>
+     <!-- about  -->
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                     <img src="rahul4.png" alt=""> 
+                </div>
+                <div class="about-col-2"> <br>
+                    <h1 class="sub-title">About Me</h1>
+                    <p> "Hello! I'm Rahul, a passionate and skilled frontend web developer. With one years of experience
+                        in the web Development, I have a deep understanding of front-end technologies, user interface
+                        design, and responsive web development. My expertise lies in HTML, CSS, JavaScript, and modern
+                        frontend frameworks such as React. I stay up-to-date with the latest industry trends and best
+                        practices to ensure that my projects are built with efficiency, scalability, and maintainability
+                        in mind. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('Education')" >Education</p>
+                    </div>
+                   
+                     <div class="tab-contents active-tab " id="Skills">
+                        <ul>
+                            
+                             <li><span>Web Development</span><br> Proficient in HTML5 </li>
+                             <li>CSS/CSS3 </li>
+                            <li> JavaScript </li>  
+                            <li>Boootstrap </li>
+                            <li>React</li>
+                            <li>Responsive Design</li>
+                            <li>UI/UX Design</li>  
+                           
+                        </ul>
+                    </div> 
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Experience</span><br> </li>
+                            <li> I'm a passionate and skilled frontend web developer. With one years of experience in
+                                the web Development.I have a deep understanding of front-end technologies, user
+                                interface design, and responsive web development. My expertise lies in HTML,HTML5, Bootstrap, CSS,
+                                JavaScript, and modern frontend frameworks such as React </li>
+                                <li>Build a weather app
+                                    In this project, I build a weather app .This application will show the detail weather information for multiple location </li>
+                                    <li>E-commerce Website,I create a E-commerce website including product catalog, and checkout process.</li>
+                                    <li>To-Do List. This application will be like a task keeper where the user would be able to enter the tasks that they need to do</li>
+                                    <li>Build a quiz app.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Education</span><br> </li>
+                            <li> B.tech </li>
+                            <li> MMU Ambala </li>
+                            <li> 2019 </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div> 
+    <!-- Services -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <P> Creating visually appealing and functional websites from scratch using HTML, CSS, and JavaScript  </P>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Responsive Web Design </h2>
+                    <P> Adapting and optimizing websites to ensure they are responsive and mobile-friendly.   </P>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>User Interface (UI) Design  </h2>
+                    <P> Designing intuitive and visually appealing user interfaces that enhance the overall user experience. </P>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div> 
+    <!-- portfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                     <img src="projectimage2.png" alt=""> 
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>This project deals with developing a Virtual website ‘E-commerce Website’. It provides the user with a list of the various products available for purchase in the store  </p>
+                        <!-- <a href="#"> <i class="fa-sharp fa-regular fa-arrow-up-right-from-square"></i> </a>  -->
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="projectimage01.png" alt=""> 
+                    <div class="layer">
+                        <h3>Quiz app</h3>
+                        <p>The project: “Quiz Application” is a collection of number of different types of quizzes like technical, games, sports, etc. A user can access/play all of the quiz and can attempt any of the one  </p>
+                        <!-- <a href="#"> <i class="fa-sharp fa-regular fa-arrow-up-right-from-square"></i> </a> -->
+                    </div>
+                </div>
+                 <!-- <div class="work">
+                     <img src="tour.png" alt=""> 
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, esse?</p>
+                        <a href="#"> <i class="fa-sharp fa-regular fa-arrow-up-right-from-square"></i> </a>
+                       
+                    </div>
+                </div>  -->
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div> 
+
+    <!-- contact -->
+
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane-top"></i> Email- rajr34380@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 8950092232</p>
+                    <div class="social-icons">
+                        <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                    </div>
+                    <a href=" Rahul resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right"> 
+                    <form name="submit-to-google-sheet"> 
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                        <input type="mobile" name="Contact" placeholder="Enter your Mobile no">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit Now</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyrighy@, made with by <i class="fa-solid fa-heart"></i> Rahul</p>
+        </div>
+    </div> 
+
+
+ <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> 
+ 
+ <script>
+
+    var typed = new Typed('#element', {
+      strings: [' frontend Web Developer', ''],
+      typeSpeed: 200,
+    //   backspeed:100,
+     loop:true
+    });
+  </script> 
+
+
+  <!-- script for tablinks -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+
+  <!-- script for sidemenu -->
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-160px";
+    }
+  </script>
+  
+<!-- script for google form -->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNMwBKozc9RQCd19EDPMAUiPfOqQMDUKxo4GLettWeO5b1JX7nuYNnkoLTvRnKkxlM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
